@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9DFF08901A2B9C0D00FABA5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF088F1A2B9C0D00FABA5E /* AppDelegate.swift */; };
-		9DFF08921A2B9C0D00FABA5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF08911A2B9C0D00FABA5E /* ViewController.swift */; };
+		9DFF08921A2B9C0D00FABA5E /* mw787ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF08911A2B9C0D00FABA5E /* mw787ViewController.swift */; };
 		9DFF08951A2B9C0D00FABA5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF08931A2B9C0D00FABA5E /* Main.storyboard */; };
 		9DFF08971A2B9C0D00FABA5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF08961A2B9C0D00FABA5E /* Images.xcassets */; };
 		9DFF089A1A2B9C0D00FABA5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF08981A2B9C0D00FABA5E /* LaunchScreen.xib */; };
 		9DFF08A61A2B9C0D00FABA5E /* mw787_P8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF08A51A2B9C0D00FABA5E /* mw787_P8Tests.swift */; };
+		9DFF08B01A2B9CD900FABA5E /* mw787Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF08AF1A2B9CD900FABA5E /* mw787Buttons.swift */; };
+		9DFF08B21A2B9CF000FABA5E /* mw787GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF08B11A2B9CF000FABA5E /* mw787GameBoard.swift */; };
+		9DFF08B41A2B9D0800FABA5E /* mw787Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF08B31A2B9D0800FABA5E /* mw787Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		9DFF088A1A2B9C0D00FABA5E /* mw787_P8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mw787_P8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFF088E1A2B9C0D00FABA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFF088F1A2B9C0D00FABA5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DFF08911A2B9C0D00FABA5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DFF08911A2B9C0D00FABA5E /* mw787ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mw787ViewController.swift; sourceTree = "<group>"; };
 		9DFF08941A2B9C0D00FABA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DFF08961A2B9C0D00FABA5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9DFF08991A2B9C0D00FABA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9DFF089F1A2B9C0D00FABA5E /* mw787_P8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mw787_P8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFF08A41A2B9C0D00FABA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFF08A51A2B9C0D00FABA5E /* mw787_P8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mw787_P8Tests.swift; sourceTree = "<group>"; };
+		9DFF08AF1A2B9CD900FABA5E /* mw787Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mw787Buttons.swift; sourceTree = "<group>"; };
+		9DFF08B11A2B9CF000FABA5E /* mw787GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mw787GameBoard.swift; sourceTree = "<group>"; };
+		9DFF08B31A2B9D0800FABA5E /* mw787Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mw787Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				9DFF088F1A2B9C0D00FABA5E /* AppDelegate.swift */,
-				9DFF08911A2B9C0D00FABA5E /* ViewController.swift */,
+				9DFF08911A2B9C0D00FABA5E /* mw787ViewController.swift */,
+				9DFF08B31A2B9D0800FABA5E /* mw787Grid.swift */,
+				9DFF08AF1A2B9CD900FABA5E /* mw787Buttons.swift */,
+				9DFF08B11A2B9CF000FABA5E /* mw787GameBoard.swift */,
 				9DFF08931A2B9C0D00FABA5E /* Main.storyboard */,
 				9DFF08961A2B9C0D00FABA5E /* Images.xcassets */,
 				9DFF08981A2B9C0D00FABA5E /* LaunchScreen.xib */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFF08921A2B9C0D00FABA5E /* ViewController.swift in Sources */,
+				9DFF08B21A2B9CF000FABA5E /* mw787GameBoard.swift in Sources */,
+				9DFF08B01A2B9CD900FABA5E /* mw787Buttons.swift in Sources */,
+				9DFF08921A2B9C0D00FABA5E /* mw787ViewController.swift in Sources */,
+				9DFF08B41A2B9D0800FABA5E /* mw787Grid.swift in Sources */,
 				9DFF08901A2B9C0D00FABA5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				9DFF08AB1A2B9C0D00FABA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DFF08AC1A2B9C0D00FABA5E /* Build configuration list for PBXNativeTarget "mw787_P8Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				9DFF08AE1A2B9C0D00FABA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
